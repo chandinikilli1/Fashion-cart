@@ -1,0 +1,476 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        body{
+            margin:0;
+            padding:0;
+            background-color:rgb(255,240,255);
+
+        }
+        header{
+             width:100%;
+             
+    padding:15px 40px;
+    box-sizing:border-box;
+    background:white;
+   
+        }
+        .dress{
+            display:flex;
+    align-items:center;
+    gap:60px; 
+
+        }
+
+        h1{ margin:0;
+            color:rgb(51,51,51);
+            margin:20px 40px;
+             font-size:40px;
+         }
+         h1 span{
+            color:rgb(255,64,129);
+         }
+         nav{ flex:1;
+            border-color: azure;
+             width:100%;
+    margin-top:10px;
+            color:rgb(51,51,51);
+         }
+        
+        nav ul{
+            display:flex;
+            gap:25px;
+             justify-content: space-evenly; 
+            list-style-type: none;
+           align-items: center;
+           margin:20px 40px;
+            margin:0;
+    padding:0;
+        }
+        nav ul li{
+            display:inline-block;
+            gap: 10px;
+        }
+        nav ul a{
+            color:black;
+            text-decoration: none;
+             font-size:18px;
+            font-weight:bold;
+           
+        }
+        a:hover{
+            color:rgb(233,30,99);
+             transition-property:color;
+            transition-duration:0.2s;
+            transition-timing-function:linear;
+         }
+         .top{
+           position:relative;
+             width:500px;
+             
+        }
+        .top input{
+            flex:1;
+    width:100%;
+    padding:12px 45px 12px 20px;
+    border:1px solid #ccc;
+    border-radius:25px;
+    font-size:16px;
+     outline:none;
+       box-sizing:border-box;
+}
+.icon{
+    
+    position:absolute;
+    right:15px;
+    top:50%;
+    transform:translateY(-50%);
+    font-size:18px;
+    color:rgb(255,64,129);
+    cursor:pointer;
+
+
+}
+nav{
+     margin-top:20px;
+}
+.main{
+    position:relative;
+    width:100%;
+    max-width:1200px;
+    margin:20px auto;
+
+    }
+.main img{
+        width:100%;
+        height: 600px;
+        border-radius:20px;
+    }
+.main  .text{
+    color:rgb(233,30,99);
+    font-size:22px;
+    font-weight:bold;
+
+}    
+.main h2{
+    margin:15px 0;
+    font-size:48px;
+    color:#333;
+}
+.main h2 span{
+    color:rgb(233,30,99);
+}
+.content{
+    position:absolute;
+    top:50%;
+    left:80px;
+    transform:translateY(-50%);
+    color:white;
+}
+
+.content .text{
+    color:rgb(255,64,129);
+    font-size:24px;
+    font-weight:bold;
+}
+
+.content h2{
+    font-size:50px;
+    margin:15px 0;
+}
+
+.content p{
+    font-size:22px;
+}
+.mains {
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    gap:30px;
+    margin-top: auto;
+
+}
+.heading{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin:20px 40px;
+}
+
+.h1s,
+.h2s{
+    margin:0;
+}
+
+.h2s{
+    color:rgb(255,64,129);
+    cursor:pointer;
+}
+
+.mains div{
+    text-align: center;
+    background-color: rgba(255,255,255,0.89);
+    box-shadow:2px 2px 2px 10px rgb(243, 241, 242);
+    border-radius:10px;
+    height:280px;
+
+}
+.mains p{
+   font-weight:400;
+    font-size:20px;
+    margin: 3px 0;
+}
+.logo{
+    width:100%;
+    margin:20px 0;
+}
+.logos{
+    display:flex;
+    text-align: center;
+    gap:100px;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+    padding:0 20px;
+    box-sizing:border-box;
+}
+.logos img{
+    clip-path: circle(50px);
+}
+.logos p{
+    font-weight: 200;
+    font-size: 25px;
+}
+.gif{
+     display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+    width:90%;
+    margin:auto;
+
+}
+ .h3,.h4{
+    color:#333;
+    font-weight: 100;
+    font-size:20px;
+    margin: 3px 0;
+}
+.gif img{
+    width:100%;
+    height:350px;
+    
+    border-radius:10px;
+}
+marquee{
+    .h3s{
+    margin:0;
+}
+
+.h3s{
+    color:#333;
+    cursor:pointer;
+    font-size: 50px;
+}
+.h3s span{
+    color:rgb(255,64,129);
+     font-size: 50px;
+}
+}
+.gowns{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.gif button{
+    background-color:rgb(255,64,129);
+    color:aliceblue;
+     font-size: 20px;
+     border:none;
+     border-radius:5px;
+     padding:5px;
+     margin-left:50px;
+}
+.gif input{
+    color:rgb(255,64,129);
+     font-size: 20px;
+}
+.gif p{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    font-size:20px;
+
+}
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="dress">
+        <h1><span>Fashion</span>Cart</h1>
+        <div class="top">
+        <input type="search" placeholder="search for dresses,tops,kurties...">
+         <span class="icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+         </span>
+        
+        </div>
+    </div>
+        <nav>
+            <ul>
+              <li><a href="#" >Home</a></li> 
+                <li><a href="#" >New Arrivals</a></li> 
+                <li><a href="#" >Dresses</a></li> 
+                 <li><a href="#" >Kurtis</a></li>
+                 <li><a href="#" >Tops</a></li>
+                 <li><a href="#" >Gowns</a></li>
+                 <li><a href="#" >Offers</a></li>
+ </ul>
+ </nav>
+    </header>
+<div class="main">
+    <img src="ammayi.png" alt="ammayi" >
+    <div class="content">
+    <p class="text">New Arrivals</p>
+    <h2>Style That<br> Speaks <span>You</span> </h2>
+    <P class="text">
+        Trendy,chic & Elegant Outfits<br>
+        for Every Occasion
+
+    </P>
+    </div>
+    </div>
+    <div class="logo">
+    <div class="logos">
+        <div class="gowns">
+        <img src="gown1.webp" width="100px" height="100px">
+        <p>Dresses</p>
+        </div>
+        <div class="gowns">
+        <img src="gown2.webp" width="100px" height="100px">
+        <p>kurties</p>
+        </div>
+        <div class="gowns">
+        <img src="gown3.webp" width="100px" height="100px">
+        <p>Tops</p>
+        </div>
+        <div class="gowns">
+        <img src="gown4.webp" width="100px" height="100px">
+        <p>Gowns</p>
+        </div>
+        <div class="gowns">
+        <img src="dress1.webp" width="100px" height="100px">
+        <p>NewArraivals</p>
+        </div>
+        <div class="gowns">
+        <img src="dress2.webp" width="100px" height="100px">
+        <p>Co-ord Sets</p>
+        </div>
+        <div class="gowns">
+            <img src="dress5.jpeg" width="100px" height="100px">
+            <p>Sarees</p>
+        </div>
+        
+        
+</div>
+</div>
+
+<div class="heading">
+<h2 class="h1s">Trending Now</h2>
+<h3 class="h2s">View All</h3>
+</div>
+<div class="mains">
+    
+    <div class="mains1">
+       <a href="dress8.webp"><img src="dress8.webp" width="200px" height="200"></a>
+        <p>green maxi dress</p>
+        <p>₹1,250</p>
+        
+    </div>
+     <div class="mains4">
+        <a href="dress3.webp"><img src="dress3.webp" width="200px" height="200"></a>
+        <p>red stylish dress</p>
+        <p>₹500</p>
+    </div>
+     <div class="mains5">
+       <a href="dress4.webp"><img src="dress4.webp" width="200px" height="200"></a>
+        <p>Abhisarika Fabulous Kurties</p>
+        <p>₹999</p>
+    </div>
+     <div class="mains6">
+       <a href="dress5.jpeg"><img src="dress5.jpeg" width="200px" height="200"></a>
+        <p>stylish black saree</p>
+        <p>₹1,499</p>
+    </div>
+     <div class="mains7">
+       <a href="dress6.jpg"> <img src="dress6.jpg" width="200px" height="200"></a>
+        <p>long red kurties</p>
+        <p>₹1,000</p>
+    </div>
+     <div class="mains8">
+       <a href="dress7.avif"> <img src="dress7.avif" width="200px" height="200"></a>
+        <p>manohar full sets</p>
+        <p>₹1,599</p>
+     </div>
+</div>
+<div class="gifcontent">
+    <marquee> <p class="h3s">🛒Shopping <span> Now</span>🛒Special Offers are<span> Available Now</span>🛒Shopping <span>Now</span>🛒Special Offers are<span> Available Now</span></p>
+    </marquee>
+   
+</div>
+<div class="gif">
+    
+    <div class="gif1">
+       <a href="gif1.webp"><img src="gif1.webp" width="400px" height="400"></a>
+        <p id="a10">blue maxi dress</p>
+        <p id="r10">₹1,250</p>
+        <input type="number" value="0" min="0" max="10" id="q1">
+        <button type="submit" onclick="cart('a10','r10','q1')">🛒Add to Cart</button>
+        
+    </div>
+     <div class="gif2">
+        <a href="gif2.webp"><img src="gif2.webp" width="400px" height="400"></a>
+        <p id="a8">pink stylish dress</p>
+        <p id="r8">₹500</p>
+        <input type="number" value="0" min="0" max="10" id="q2">
+        <button type="submit" onclick="cart('a8','r8','q2')">🛒Add to Cart</button>
+    </div>
+     <div class="gif3">
+       <a href="gif3.webp"><img src="gif3.webp" width="400px" height="400"></a>
+        <p id="a1">Abhisarika Fabulous Kurties</p>
+        <p id="r1">₹999</p>
+        <input type="number" value="0" min="0" max="10" id="q3">
+        <button type="submit" onclick="cart('a1','r1','q3')">🛒Add to Cart</button>
+    </div>
+     <div class="gif4">
+       <a href="gif4.jpeg"><img src="gif4.jpeg" width="400px" height="400"></a>
+        <p id="a2">stylish blue Kurtis</p>
+        <p id="r2r">₹1,499</p>
+        <input type="number" value="0" min="0" max="10" id="q4">
+        <button type="submit" onclick="cart('a2','r2r','q4')">🛒Add to Cart</button>
+    </div>
+     <div class="gif5">
+       <a href="gif5.jpeg"> <img src="gif5.jpeg" width="400px" height="400"></a>
+        <p id="a3">long blue kurties</p>
+        <p id="r3r">₹1,000</p>
+        <input type="number" value="0" min="0" max="10" id="q5">
+        <button type="submit" onclick="cart('a3','r3r','q5')">🛒Add to Cart</button>
+    </div>
+     <div class="gif6">
+       <a href="gif6.jpeg"> <img src="gif6.jpeg" width="400px" height="400"></a>
+        <p id="a4">stylish pink full sets</p>
+        <p id="a4r">₹1,599</p>
+        <input type="number" value="0" min="0" max="10" id="q6">
+        <button type="submit" onclick="cart('a4','a4r','q6')">🛒Add to Cart</button>
+     </div>
+     <div class="gif7">
+       <a href="gif7.jpeg"> <img src="gif7.jpeg" width="400px" height="400"></a>
+        <p id="a5">manohar full sets</p>
+        <p id="a5r">₹1,599</p>
+        <input type="number" value="0" min="0" max="10" id="q7">
+        <button type="submit" onclick="cart('a5','a5r','q7')">🛒Add to Cart</button>
+     </div>
+     <div class="gif8">
+       <a href="gif8.jpeg"> <img src="gif8.jpeg" width="400px" height="400"></a>
+        <p id="a6">manohar full sets</p>
+        <p id="a6r">₹1,599</p>
+        <input type="number" value="0" min="0" max="10" id="q8">
+        <button type="submit" onclick="cart('a6','a6r','q8')">🛒Add to Cart</button>
+     </div>
+     <div class="gif9">
+       <a href="gif9.jpeg"> <img src="gif9.jpeg" width="400px" height="400"></a>
+        <p id="a7">mangalagiri full sets</p>
+        <p id="a7r">₹1,599</p>
+        <input type="number" value="0" min="0" max="10" id="q9">
+        <button type="submit" onclick="cart('a7','a7r','q9')">🛒Add to Cart</button>
+        
+     </div>
+</div>
+<script>
+    function cart(name,num,q){
+       let names=document.getElementById(name).innerText;
+       let cost=document.getElementById(num).innerText;
+       cost = Number(cost.replace("₹","").replace(",",""));
+       let quantity=Number(document.getElementById(q).value);
+       let total=quantity*cost;
+       alert(
+        "Name:"+names+"\nCost:"+cost+"\nquantity:"+quantity+"\ntotal:"+total+"/-"
+        
+       );
+
+        
+
+
+    }
+</script>
+</body>
+</html>
